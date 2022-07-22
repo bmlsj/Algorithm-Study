@@ -4,7 +4,7 @@
 
 초보 알고리즘 스터디
 
-### 스터디 참여 방식
+## 스터디 참여 방식
 1. 해당 프로젝트를 `fork` 한다.
 2. fork된 자신의 저장소에서 `github ID`로 폴더를 생성한다.
 3. 알고리즘 풀이 후 본인 폴더에 `PUSH` 한다.
@@ -12,7 +12,7 @@
 5. 코드 리뷰 후 `Merge` 한다.(주1회)
 
 
-### 파일 및 폴더 구조
+## 파일 및 폴더 구조
 - 본인 `Github ID`로 된 폴더 내부 구조
 - `/사용 플랫폼/문제 유형(혹은 레벨)/문제 이름` 형식
 - 예시1 : `/BOJ/Tree/1991. 트리순회`
@@ -21,7 +21,7 @@
 - 예시3 : `/LT/Easy/86. Partition List`
 
 
-### COMMIT 형식
+## COMMIT 형식
 - COMMIT MESSAGE : [문제이름 / 난이도 / 걸린시간]
 - DESCRIPTION : 문제 링크 주소
 - 예시:
@@ -30,7 +30,7 @@ git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/pr
 ~~~
 
 
-##### 플랫폼 이름
+### 플랫폼 이름
 1. **CD** : [Codility](https://app.codility.com/programmers/lessons/1-iterations/)
 2. **BOJ** : [백준](https://www.acmicpc.net/problem/tags)
 3. **PGS** : [프로그래머스](https://school.programmers.co.kr/learn/challenges)
@@ -39,14 +39,14 @@ git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/pr
 6. **그외** : 각자 알아볼 수 있게 이름 지정(자유)
 
 
-### PR 형식
+## PR 형식
 - `Github ID` / 주차 / 몇 문제 `사용언어라벨` `사용 플랫폼라벨` 
 - `label` : 사용한 언어, 사용 플랫폼
 - 예시 : `bmlsj` / 7월 4주차 / 3문제 `Java` `BOJ`
 - **COMMENT** : 알고리즘 문제나 방식의 설명이나 어떤 점이 어려웠는 지의 회고를 작성(자유)
 
 
-### 알고리즘 공부 방법(자유)
+## 알고리즘 공부 방법(자유)
 1. 기본 개념 이해
     - **추천 사이트**
     - [LibreWiki](https://librewiki.net/wiki/%EC%8B%9C%EB%A6%AC%EC%A6%88:%EC%88%98%ED%95%99%EC%9D%B8%EB%93%AF_%EA%B3%BC%ED%95%99%EC%95%84%EB%8B%8C_%EA%B3%B5%ED%95%99%EA%B0%99%EC%9D%80_%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B3%BC%ED%95%99/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98_%EA%B8%B0%EC%B4%88)
@@ -72,12 +72,12 @@ git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/pr
     - 또 다른 풀이 방식을 제시
 
 
-#### 참여 인원
+### 참여 인원
 - [bmlsj](https://github.com/bmlsj)
 - [songu1](https://github.com/songu1)
 
 
-##### 참고 스터디
+#### 참고 스터디
 1. [루틴스터디 알고리즘](https://github.com/ROUTINE-STUDY/Algorithm)
 2. [challenge100-codingtest-study](https://github.com/ellynhan/challenge100-codingtest-study)
 3. [단국대학교 알고리즘 스터디](https://github.com/DKU-STUDY/Algorithm)
