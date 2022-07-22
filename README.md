@@ -62,7 +62,7 @@ git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/pr
     - 어려울 경우 솔루션 참고해 이해하기
 
 
-### 코드 리뷰 참고사항
+## 코드 리뷰 참고사항
 - PR에서 코드 리뷰를 진행한다.
 - 전체 코드 흐름을 파악 후, 어떻게 풀었을 까 생각해본다
 - 의견 제시(자유)
@@ -72,12 +72,12 @@ git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/pr
     - 또 다른 풀이 방식을 제시
 
 
-### 참여 인원
+## 참여 인원
 - [bmlsj](https://github.com/bmlsj)
 - [songu1](https://github.com/songu1)
 
 
-#### 참고 스터디
+### 참고 스터디
 1. [루틴스터디 알고리즘](https://github.com/ROUTINE-STUDY/Algorithm)
 2. [challenge100-codingtest-study](https://github.com/ellynhan/challenge100-codingtest-study)
 3. [단국대학교 알고리즘 스터디](https://github.com/DKU-STUDY/Algorithm)
