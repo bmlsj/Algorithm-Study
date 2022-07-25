@@ -26,7 +26,7 @@
 - DESCRIPTION : 문제 링크 주소
 - 예시:
 ~~~
-git commit -m "트리 순회 / 실버1 / 30분" -ㅡ "https://www.acmicpc.net/problem/1991"
+git commit -m "트리 순회 / 실버1 / 30분" -m "https://www.acmicpc.net/problem/1991"
 ~~~
 
 
