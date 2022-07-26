@@ -86,3 +86,4 @@ print("{0}.{1}.{2}".format(year.rjust(4, "0"), month.rjust(2, "0"), day.rjust(2,
 # 1020 : [기초-입출력] 주민번호 입력받아 형태 바꿔 출력하기
 birth, code = input().split("-")
 print(birth+code)
+
