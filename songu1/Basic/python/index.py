@@ -33,6 +33,8 @@ print(data)
 # (1) 나누어 입력 받기
 a, b = map(int,input().split())
 print(a+b)
+a,b=map(int,sys.stdin.readline().split())
+print(a+b)
 
 data=list(map(int,input().split())) #각 데이터를 공백으로 구분하여 입력
 print(data)
