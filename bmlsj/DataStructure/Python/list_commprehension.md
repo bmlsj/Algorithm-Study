@@ -17,8 +17,9 @@
         if n % 2 == 1:
             a.append(n*2)
 ```
+<br>
 
-딕셔너리
+**딕셔너리**
 ```python
     a = {}
     for key, value in original.items():
@@ -45,6 +46,7 @@
         print(next(g))
     # 결과: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 ```
+<br>
 
 여러 타입의 값을 하나의 함수에서 생성하는 것도 가능
 ```python
@@ -78,6 +80,7 @@ for 문에서 사용할 경우 내부적으로 제너레이터의 ```next()``` �
 a에는 이미 생성된 값이 담겨 있고, b는 생성해야 한다는 조건만 존재한다. 
 
 b에서는 값의 생성 조건만 보관하고 있기 때문에 숫자를 똑같이 100개 가지고 있지만 range 클래스를 활용하는 b 변수의 메모리 점유율이 훨씬 더 작다.
+<br>
 <br>
 
 ## enumerate
@@ -145,6 +148,58 @@ print('bb')                 # aa bb
 
 a = ['a','b']
 print(' '.join(a))          # a b
-
-
 ```
+<br>
+
+출력 포맷
+```python
+idx = 1
+fruit = 'apple'
+
+print('{0}: {1}'.format(idx+1, fruit))      # 2: apple
+print('{}: {}'.format(idx+1, fruit))        # 2: apple
+
+# f-string
+print(f'{idx+1}: {fruit}')                  # 2: apple
+```
+<br>
+
+## pass
+코딩을 할 때 전체 골격을 잡아 놓고 내부에서 처리할 내용은 차근히 생각하며 만들겠다는 의도
+
+pass 는 null 연산으로 아무것도 하지 않는 기능
+
+```python
+class MyClass(object):
+    def method_a(self):
+        pass
+    
+    def method_b(self):
+        print("method b")
+
+c = MyClass()
+```
+
+<br>
+
+## locals
+로컬 심볼 테이블 딕셔너리를 가져오는 메소드로 업데이트 또한 가능하다
+
+
+로컬에 선언된 모든 변수를 조회할 수 있는 강력한 명령이므로 디버깅에 도움이 된다. 특히 로컬 스코프에 제한해 정보를 조회할 수 있기 때문에 클래스의 특정 메소드 내부나 함수 내부의 로컬 정보를 조회해 잘못 선언한 부분이 없는 지 확인하는 용도
+
+```python
+import pprint
+pprint.pprint(locals())
+```
+클래스 메소드 내부의 모든 로컬 변수를 출력해 주어 디버깅에 좋다
+
+<br>
+
+## 좋은 코딩 스타일
+- [Clean Code 클린 코드]
+- [프로그래밍 수련법]
+- [파이썬의 PEP 8](https://www.python.org/dev/peps/pep-0008/)
+- [구글의 파이썬 스타일 가이드](httpL//google.github.io/styleguide/pyguide.html)
+
+간단히 주석을 부여하는 편이 가독성에 좋고, 의미있는 변수명을 사용할  것
