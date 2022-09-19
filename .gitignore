@@ -766,3 +766,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/java,python,visualstudio,eclipse,intellij
+*.png
+*.img
+img/
