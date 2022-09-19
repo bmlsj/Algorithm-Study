@@ -697,3 +697,75 @@ with open("study.txt","r",encoding="utf8") as study_file:
 ```
 
 # 8. 클래스
+## 클래스
+
+- 실제 게임할때 수십 수백개의 유닛이 필요함 → 클래스
+
+```python
+class Unit:
+    def __init__(self, name, hp, damage):
+        self.name=name
+        self.hp=hp
+        self.damage=damage
+        print("{0}유닛이 생성되었습니다.".format(self.name))
+        print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
+
+marine1=Unit("마린",40, 5)  # self를 제외한 나머지를 입력해줌
+marine2=Unit("마린",40, 5)
+tank=Unit("탱크",150,35)
+```
+
+## init
+
+- `__init__`  : 생성자
+- 객체가 만들어질 때 자동으로 호출되는 부분
+- 객체 : 클래스로부터 만들어지는 것 (ex - 마린, 탱크)
+- 마린, 탱크 - Unit 클래스의 instance
+- 객체 생성될 때 유닛함수에 정의된 개수와 동일하게 self 제외
+
+```python
+class Unit:
+    def __init__(self, name, hp, damage):
+        self.name=name
+        self.hp=hp
+        self.damage=damage
+        print("{0}유닛이 생성되었습니다.".format(self.name))
+        print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
+
+marine1=Unit("마린",40, 5)  # self를 제외한 나머지를 입력해줌
+marine3=Unit("마린",40) #에러
+```
+
+## 멤버변수
+
+- self.name, self.hp, self.damage 에서 name, hp, damage : 멤버변수
+- 클래스에 대해서 정의된 변수
+- 어떤 객체에 추가로 변수를 외부에서 만들어 쓸 수 있음(확장가능)
+    - 확장을 한 객체에 대해서만 적용
+
+```python
+class Unit:
+    def __init__(self, name, hp, damage):
+        self.name=name  
+        self.hp=hp                          
+        self.damage=damage
+        print("{0}유닛이 생성되었습니다.".format(self.name))
+        print("체력 {0}, 공격력 {1}".format(self.hp, self.damage))
+
+#레이스 : 공중 유닛, 비행기, 클로킹(상대방에게 보이지 않음)
+wraith1 =Unit("레이스",80,5)
+print("유닛이름 : {0}, 공격력 : {1}".format(wraith1.name, wraith1.damage))
+#클래스 외부에서 멤버변수 사용
+
+#마인드 컨트롤 : 상대방 유닛을 내것으로 만드는 것 (빼앗음)
+wraith2=Unit("빼앗은 레이스",80,5)
+wraith2.clocking= True      #외부에서 변수를 추가로 할당
+#레이스1에는 clocking이 없음
+
+if wraith2.clocking==True:
+    print("{0} 는 현재 클로킹 상태입니다.".format(wraith2.name))
+
+# if wraith1.clocking==True:      #클로킹 없음
+#     print("{0} 는 현재 클로킹 상태입니다.".format(wraith2.name))
+```
+
