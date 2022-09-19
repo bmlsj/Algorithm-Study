@@ -1,31 +1,31 @@
 # 주요 라이브러리 문법과 유의점
 ## 코딩테스트를 준비하며 반드시 알아야하는 라이브러리 6가지
 
-1. 내장 함수
+1. **내장 함수**
 
     ```print()```, ```input()```과 같은 기본 입출력 기능부터 ```sorted()``` 같은 정렬 기능을 포함하고 있는 내장 라이브러리
 
-2. itertools
+2. **itertools**
 
     파이썬에서 반복되는 형태의 테이터를 처리하는 기능을 제공하는 라이브러리
     
     순열과 조합 라이브러리를 제공
 
-3. heapq
+3. **heapq**
 
     힙(Heap) 기능을 제공하는 라이브러리
 
     우선순위 큐 기능을 구현하기 위해 사용
 
-4. bisect
+4. **bisect**
 
     이진 탐색/이분 탐색(Binary Search) 기능을 제공하는 라이브러리
 
-5. Collections
+5. **Collections**
 
     덱(deque), 카운터(Counter) 등의 유용한 자료구조를 포함하고 있는 라이브러리
 
-6. math
+6. **math**
 
     필수적인 수학적 기능을 제공하는 라이브러리
     
@@ -145,10 +145,13 @@
     ```
 
 - **combinations_with_replacement** 
-    combinations와 같이 리스트와 같은 iterable 객체에서 r개의 데이터를 뽑아 순서를 고려하지 않고 나열하는 모든 경우(조합)을 계산
-        - 원소를 중복하여 뽑음
-        - 클래스이므로 객체 초기화 이후에는 리스트 자료형으로 변환하여 사용
 
+    combinations와 같이 리스트와 같은 iterable 객체에서 r개의 데이터를 뽑아 순서를 고려하지 않고 나열하는 모든 경우(조합)을 계산
+
+    - 원소를 중복하여 뽑음
+     - 클래스이므로 객체 초기화 이후에는 리스트 자료형으로 변환하여 사용
+
+    
     ```python
     from itertools import combinations_with_replacment
 
@@ -237,6 +240,7 @@ print(bisect_right(a, x)) # 4
 ```
 
 - '정렬된 리스트'에서 '값이 특정 범위에 속하는 원소의 개수'를 구하고자 할 때 효과적으로 사용됨
+
 ```python
 from bisect import bisect_left, bisect_right
 
@@ -314,6 +318,7 @@ print(math.sqrt(7))  # 2.6457513110645907
 ```
 
 - ```gcd(a, b)``` : a와 b의 최대공약수 반환
+
 ```python 
 import math
 
