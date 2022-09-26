@@ -4,4 +4,3 @@ def solution(s):
         return ans[int(len(ans)/2)]
     else:
         return "".join(ans[int(len(ans)/2)-1:int(len(s)/2)+1])
-    
