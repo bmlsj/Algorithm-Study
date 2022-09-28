@@ -43,9 +43,9 @@
 
     저장되는 자료의 전후관계가 1:1
 - 배열(Array)
-- 연결 리스트(LinkedList)
-- 스택(Stack)
-- 큐(Queue)
+- [연결 리스트(LinkedList)](./LinkedList/LinkedList.md)
+- [스택(Stack)](./Stack.md)
+- [큐(Queue)](./Queue.md)
 
 3. **비선형 구조**
 
@@ -59,3 +59,16 @@
 - 순차 파일
 - 색인 파일
 - 직접파일
+
+
+<br>
+
+## 공부할 자료구조 순서
+- [스택](./Stack.md) & [큐](./Queue.md) / 힙
+- 해시 / 그래프
+- 정렬 / 이분탐색
+- 그리디
+- 완전탐색(Brute Force)
+- BFS / DFS
+- DP
+- 시뮬레이션 % 문자열
