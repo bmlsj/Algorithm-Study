@@ -4,11 +4,18 @@
 
 
 ### 1. [LinkedList](./LinkedList/LinkedList.md)
-### 2. Stack
-### 3. Queue
+### 2. [Stack](./Stack.md)
+### 3. [Queue](./Queue.md)
 ### 4. Hash
-### 5. Tree
-### 6. Graph
+### 5. Graph
+### 6. Sorting
+### 7. Binary Search
+### 8. Greedy
+### 9. Brute Force
+### 10. BFS / DFS
+### 11. DP
+### 12. Simulation & String
+
 
 <br></br>
 ## Sort
