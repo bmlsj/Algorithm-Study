@@ -76,6 +76,7 @@ git commit -m "트리 순회 / 실버1 / 30분" -m "https://www.acmicpc.net/prob
 ## 참여 인원
 - [bmlsj](https://github.com/bmlsj)
 - [songu1](https://github.com/songu1)
+- [sounimul](https://github.com/sounimul)
 
 
 ### 참고 스터디
