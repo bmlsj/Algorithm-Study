@@ -186,11 +186,15 @@ subway.append("마바")   #맨 뒤에 ()안 값 삽입 -> ['가',....,'마바']
 subway.insert(1,"사")   #index 1자리에 "사"삽입 -> ['가','사','나',..'마바']
 subway.pop()     #리스트 제일 마지막 값 삭제 -> ['가','사','나','다']
 subway.count("가")   #'가'가 몇번 나오는지 출력 -> 1번
+sorted(subway)      #문자열 정렬
+sorted(subway,reverse=True)     #역순으로 문자열 정렬
 
 num_list=[5,2,4,3,1]
 num_list.sort() : 오름차순 정렬  ->  [1,2,3,4,5]
 num_list.reverse() : 순서 뒤집기   ->[5,4,3,2,1]
+num_list.sort(reverse=True) : 내림차순 정렬
 num_list.clear() : 모두 지우기
+
 
 mix_list=["조세호", 20, True]
 num_list.extend(mix_list)   #num_list 뒤에 mix_list를 붙여 확장

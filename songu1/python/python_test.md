@@ -224,3 +224,46 @@ print(arr2)
 
 - x in 리스트
 - x not in 문자열
+
+# 9. 형변환
+
+### (1) 정수를 리스트로
+
+```python
+res = [int(x) for x in str(num)]
+```
+
+# 10. 문자열 <-> 리스트
+
+### (1) join
+'구분자'.join(리스트)
+
+```python
+a=['a','b','c']
+result="".join
+```
+
+### (2) split
+```python
+s="a b c d e f"
+r=s.split()
+```
+문자열.split('구분자',분할횟수)
+구분자 : seq=' '
+
+# for문
+
+### (1) for문 변수 여러개 사용
+```python
+for i,j in zip(a,b):
+    ...
+```
+
+# 파이썬 예외처리 -> 수정하기!!
+
+```python
+try:
+    ...
+except IndexError:
+    ...
+```
