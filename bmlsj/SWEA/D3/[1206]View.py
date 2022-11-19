@@ -1,7 +1,3 @@
-import sys
-
-sys.stdin = open('input.txt', 'r')
-
 for i in range(10):
     N = int(input())  # 건물의 개수
 
